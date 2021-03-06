@@ -10,7 +10,10 @@ environment:
 
 dependencies:
   yaml: '>=2.1.8 <3.0.0'
-  runtime: ^1.0.0-5
+  runtime:
+    git:
+      url: https://github.com/jayjah/dart-runtime.git
+      ref: master
 
 dev_dependencies:
   test: ^1.3.0
